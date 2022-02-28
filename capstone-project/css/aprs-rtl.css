@@ -1,0 +1,45 @@
+header .container .logo img {
+    position: relative;
+    top: 5px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: auto;
+  }
+
+@media (max-width: 767px){
+  header nav ul.press{
+    left: 0;
+    right: auto;
+  }
+}
+
+footer .container .copy .icons{
+  left: 0;
+  right: auto;
+}
+
+
+main .gallery .container .next{
+  left: 15px;
+  right: auto;
+}
+
+main .about .container .text{
+  padding-left: 30px;
+  padding-right: 0;
+}
+
+@media (max-width: 767px){
+	main .contact .container .social i.mob::after{
+		top: 0;
+		left: -190px;
+	}
+}
+
+@media (max-width: 530px){
+	main .contact .container .social i.mob::after{
+		font-size: 0.7em;
+		top: 45px;
+		left: -70px;
+	}
+}

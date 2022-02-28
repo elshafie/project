@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="description" content="Animal Production Research Station">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&family=Red+Hat+Mono:ital,wght@1,351&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+<link rel="stylesheet" type="text/css" href="css/all.min.css">
+
+ <link rel="stylesheet" type="text/css" href="css/aprs.css">
+
+ <link rel="stylesheet" type="text/css" href="css/aprs-rtl.css">
+
+ <title>محطة بحوث الإنتاج الحيوانى</title>
+</head>
+
+<body>
+     <!-- start header -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index-rtl.html">
+          <img src="images/output-onlinepngtools.png" alt="Logo">
+        </a>
+        <div class="logo-name">
+          <a href="index-rtl.html"><h3>محطة بحوث الإنتاج الحيوانى بسخا</h3></a>
+        </div>
+      </div>
+
+      <div class="lang en">
+        <a href="gallery.html">
+          <i class="fa-solid fa-toggle-off en-lang"></i>
+        </a>
+      </div>
+
+      <nav>
+        <i onclick="openMenu()" class="fas fa-bars toggle-menu ar"></i>
+        <ul id="links">
+          <li><a href="index-rtl.html">الرئيسية</a></li>
+          <li><a href="#" class="active">المعرض</a></li>
+          <li><a href="about-ar.html">عن</a></li>
+          <li><a href="contact-ar.html">إتصل بنا</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+
+  </header>
+  <!-- end header -->
+
+  <main>
+        <div class="gallery">
+            <!-- Container for the image gallery -->
+            <div class="container">
+
+              <!-- Full-width images with number text -->
+              <div class="mySlides">
+                <div class="numbertext">1 / 6</div>
+                  <img src="images/room-2.jpg" style="width:100%" alt="course room">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">2 / 6</div>
+                  <img src="images/training.jpg" style="width:100%" alt="practical training">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">3 / 6</div>
+                  <img src="images/training-2.jpg" style="width:100%" alt="During course">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">4 / 6</div>
+                  <img src="images/goat-training.jpg" style="width:100%" alt="Artificial Insemination in goats">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">5 / 6</div>
+                  <img src="images/rabbit-training.jpg" style="width:100%" alt="rabbit training">
+              </div>
+
+              <div class="mySlides">
+                <div class="numbertext">6 / 6</div>
+                  <img src="images/certificate.jpg" style="width:100%" alt="Certicate">
+              </div>
+
+              <!-- Next and previous buttons -->
+              <a class="prev" onclick="plusSlides(1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(-1)">&#10095;</a>
+
+              <!-- Image text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+
+              <!-- Thumbnail images -->
+              <div class="row">
+                <div class="column">
+                  <img class="demo cursor" src="images/room-2.jpg" style="width:100%" onclick="currentSlide(1)" alt="غرفة التدريب">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/training.jpg" style="width:100%" onclick="currentSlide(2)" alt="التدريب العملى">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/training-2.jpg" style="width:100%" onclick="currentSlide(3)" alt="أثناء أحد الدورات">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/goat-training.jpg" style="width:100%" onclick="currentSlide(4)" alt="التلقيح الصناعى فى الأغنام">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/rabbit-training.jpg" style="width:100%" onclick="currentSlide(5)" alt="التدريب على الأرانب">
+                </div>
+                <div class="column">
+                  <img class="demo cursor" src="images/certificate.jpg" style="width:100%" onclick="currentSlide(6)" alt="تسليم الشهادات">
+                </div>
+              </div>
+            </div>
+        </div>
+    </main>
+
+
+
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="copy">
+        <div class="text">
+          <h4>تم تطويرة بواسطة<br><a href="#"><span>د.محمد الشافعى عبد القادر عمر</span></a><br>&copy;جميع الحقوق محفوظه</h4>
+        </div>
+        <div class="icons">
+          <a href="https://www.facebook.com/mohammed.elshafie50" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://www.instagram.com/m_elshafie15/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://twitter.com/m_elshafie15" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://github.com/elshafie" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script type="text/javascript" src="js/aprs.js"></script>
+  <script type="text/javascript" src="js/gallery.js"></script>
+
+</body>
+</html>
